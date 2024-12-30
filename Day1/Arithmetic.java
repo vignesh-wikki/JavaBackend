@@ -11,6 +11,7 @@ public class Arithmetic {
         int num1 = sc.nextInt();
         System.out.print("Enter the num2: ");
         int num2 = sc.nextInt();
+        sc.close();
 
         System.out.println("Addition of "+num1+" and "+num2+" number is :"+(num1+num2));
         System.out.println("Substarction of " + num1 + " and " + num2 + " number is :" + (num1 - num2));
@@ -18,6 +19,6 @@ public class Arithmetic {
         System.out.println("Division of " + num1 + " and " + +num2 + " number is :" + (num1 / num2));
         System.out.println("Modulas of " + num1 + " and " + num2 + " number is :"+ (num1 % num2));
 
-        sc.close();
+        
     }
 }

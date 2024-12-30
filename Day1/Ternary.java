@@ -8,9 +8,10 @@ public class Ternary {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int number = sc.nextInt();
-
+        sc.close();
+        
         System.out.println(number % 2 ==0 ? "Even" : " Odd");
 
-        sc.close();
+        
     }
 }

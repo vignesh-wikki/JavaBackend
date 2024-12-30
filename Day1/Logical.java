@@ -13,6 +13,7 @@ public class Logical {
         int num1 = sc.nextInt();
         System.out.print("Enter the num2: ");
         int num2 = sc.nextInt();
+        sc.close();
 
         //Relational
         if(num1 > num2) 
@@ -47,6 +48,6 @@ public class Logical {
             System.out.println("Condition not passed");  
 
 
-        sc.close();
+        
     }
 }

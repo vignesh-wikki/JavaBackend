@@ -10,10 +10,11 @@ class PrimitiveConversion {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         float floatnumber = sc.nextFloat();
+        sc.close();
         int intNumber = (int) floatnumber;
 
         System.out.println(floatnumber+" "+intNumber);
 
-        sc.close();
+        
     }
 }

@@ -12,6 +12,7 @@ public class Bitwise {
         int num1 = sc.nextInt();
         System.out.print("Enter the num2: ");
         int num2 = sc.nextInt();
+        sc.close();
 
         int result = num1 << num2;
         System.out.println("Left shift : "+result);
@@ -31,7 +32,7 @@ public class Bitwise {
         result = num1 | num2;
         System.out.println("Or : " + result);
 
-        sc.close();
+        
 
     }
 }
