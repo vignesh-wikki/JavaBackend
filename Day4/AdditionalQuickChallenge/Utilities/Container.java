@@ -1,4 +1,4 @@
-package Day4.AdditionalQuickChallenge.com.Utilities;
+package Day4.AdditionalQuickChallenge.Utilities;
 
 public class Container<T> {
     private T obj;
