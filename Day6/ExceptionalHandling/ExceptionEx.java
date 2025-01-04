@@ -1,3 +1,12 @@
+/*Write a program that:
+Accepts two integers from the user as input.
+Attempts to divide the first integer by the second.
+Implements exception handling to manage the following scenarios:
+Division by zero: Display an error message "Error: Division by zero is not allowed.".
+Invalid input: Display an error message "Error: Please enter valid integers.".
+Any other exceptions: Display "An unexpected error occurred.".
+ */
+
 package Day6.ExceptionalHandling;
 
 import java.util.Scanner;

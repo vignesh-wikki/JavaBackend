@@ -1,3 +1,8 @@
+/*Create a program that demonstrates:
+Creating an object of a class.
+Using the basic methods of the Object class: getClass() and toString().
+ */
+
 package Day6.JavaLangObjects.ObjectMethods;
 
 public class ObjectEx implements Cloneable {

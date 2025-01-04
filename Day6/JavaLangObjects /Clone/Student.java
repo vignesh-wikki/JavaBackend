@@ -1,3 +1,7 @@
+/*
+Create a class Student with fields for the name and age. Write a program to create a clone (copy) of a Student object using the clone() method.
+ */
+
 package Day6.JavaLangObjects.Clone;
 
 public class Student implements Cloneable {

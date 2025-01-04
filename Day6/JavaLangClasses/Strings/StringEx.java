@@ -1,3 +1,14 @@
+/*1) Write a program that takes a sentence as input from the user and performs the following operations:
+Count the number of words in the sentence.
+Reverse the entire sentence.
+Replace all vowels in the sentence with the character '*'.
+2) Write a program that:
+Takes two strings as input from the user.
+Compares them lexicographically using compareTo() method.
+Checks if the two strings are equal (case-sensitive and case-insensitive).
+Concatenates the two strings and prints the result.
+ */
+
 package Day6.JavaLangClasses.Strings;
 
 import java.util.Scanner;

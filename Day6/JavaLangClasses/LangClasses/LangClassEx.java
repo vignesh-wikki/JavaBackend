@@ -1,3 +1,9 @@
+/*Write a program to demonstrate the use of the following java.lang classes:
+Math - Perform basic mathematical operations like finding the square root, power, and maximum of two numbers.
+String - Manipulate a string by finding its length, converting it to uppercase, and extracting a substring.
+System - Print a message to the console and measure the execution time of a simple loop using System.currentTimeMillis().
+ */
+
 package Day6.JavaLangClasses.LangClasses;
 
 public class LangClassEx {
