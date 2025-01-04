@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class StringEx {
         public static void main(String[] args) {
                 Scanner scanner = new Scanner(System.in);
-                String sentence = scanner.nextLine();
-                String[] words = sentence.trim().split("\\s+");
+                String str = scanner.nextLine();
+                String[] words = str.trim().split("\\s+");
                 int wordLength = words.length;
                 System.out.println("Number of words: " + wordLength);
-                StringBuilder reversed = new StringBuilder(sentence);
+                StringBuilder reversed = new StringBuilder(str);
                 System.out.println("Reversed sentence: " + reversed.reverse());
-                String vowel = sentence.replaceAll("[AEIOUaeiou]", "*");
+                String vowel = str.replaceAll("[AEIOUaeiou]", "*");
                 System.out.println("Replacing vowels: " + vowel);
 
                 System.out.println("Enter the first string:");
