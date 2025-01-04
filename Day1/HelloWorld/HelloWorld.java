@@ -1,3 +1,4 @@
+package Day1.HelloWorld;
 
 // Create a simple Java program called HelloJava.java that prints "Hello, Java!".
 // Compile and run it from the command line using javac and java.

@@ -1,3 +1,4 @@
+package Day1.Primitive;
 // Declare variables of all primitive types and print them.
 // Convert a double to an int and print the result.
 
