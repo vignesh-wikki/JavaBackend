@@ -1,4 +1,4 @@
-package Day5.JavaLangObjects.Clone;
+package Day6.JavaLangObjects.Clone;
 
 public class Student implements Cloneable {
     private String name;

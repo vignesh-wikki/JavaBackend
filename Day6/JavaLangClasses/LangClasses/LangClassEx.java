@@ -1,4 +1,4 @@
-package Day5.JavaLangClasses.LangClasses;
+package Day6.JavaLangClasses.LangClasses;
 
 public class LangClassEx {
     public static void main(String[] args) {

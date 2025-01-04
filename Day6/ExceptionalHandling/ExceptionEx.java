@@ -1,4 +1,4 @@
-package Day5.ExceptionalHandling;
+package Day6.ExceptionalHandling;
 
 import java.util.Scanner;
 

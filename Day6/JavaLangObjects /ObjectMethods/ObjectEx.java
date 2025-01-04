@@ -1,4 +1,4 @@
-package Day5.JavaLangObjects.ObjectMethods;
+package Day6.JavaLangObjects.ObjectMethods;
 
 public class ObjectEx implements Cloneable {
 
