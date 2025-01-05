@@ -1,5 +1,4 @@
-/*Write a Java program to demonstrate object-level and method-level locking using multithreading. The program should:
-Create a shared resource class (e.g., SharedPrinter) with two synchronized methods:
+/**Write a Java program to demonstrate object-level and method-level locking using multithreading. The program should:Create a shared resource class (e.g., SharedPrinter) with two synchronized methods:
 Method 1: Print a given string multiple times.
 Method 2: Print a countdown from a given number.
 Use two threads:
@@ -11,6 +10,7 @@ Class-Level Locking: When both threads use a static synchronized method or block
 Show how the locks affect the execution order of the methods.
  */
 
+ 
 package Day7.ObjectAndMethodLocking;
 
 public class SharedPrinter {

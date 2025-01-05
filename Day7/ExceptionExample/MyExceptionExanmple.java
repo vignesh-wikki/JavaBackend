@@ -19,9 +19,8 @@ class MyException extends Exception {
 
 public class MyExceptionExanmple {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
         try {
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter the number: ");
             int num1 = sc.nextInt();
             System.out.print("Enter the number: ");
@@ -40,7 +39,6 @@ public class MyExceptionExanmple {
         } catch (Exception e) {
             System.err.println("An error occurred: " + e.getMessage());
         } finally {
-            sc.close();
             System.out.println("Completed");
         }
     }
