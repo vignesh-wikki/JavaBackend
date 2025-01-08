@@ -10,7 +10,6 @@ package Day7.ThreadExamples;
 
 public class ThreadExample {
     public static void main(String[] args) {
-        ThreadExample obj = new ThreadExample();
 
         Thread thread1 = new Thread() {
             @Override
@@ -18,7 +17,7 @@ public class ThreadExample {
                 try {
                     for (int i = 1; i <= 10; i++) {
                         System.out.println(i);
-                        sleep(500);
+                        Thread.sleep(500);
                     }
                 } catch (InterruptedException e) {
                     System.out.println(e);
@@ -34,7 +33,7 @@ public class ThreadExample {
                 try {
                     for (int i = 1; i <= 10; i++) {
                         System.out.println(Math.sqrt(i));
-                        sleep(700);
+                        Thread.sleep(700);
                     }
                 } catch (InterruptedException e) {
                     System.out.println(e);
