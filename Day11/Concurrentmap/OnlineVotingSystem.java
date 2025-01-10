@@ -3,9 +3,10 @@ package Day11.Concurrentmap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 
 class OnlineVotingSystem {
-    ConcurrentHashMap<String, Integer> votes = new ConcurrentHashMap<>();
+    ConcurrentMap<String, Integer> votes = new ConcurrentHashMap<>();
 
     public void addNewCandidate(String name) {
         votes.putIfAbsent(name, 0);
@@ -46,7 +47,6 @@ class OnlineVotingSystem {
             @Override
             public void run() {
                 voting.voteForCandidate("Alice");
-
             }
         };
 
@@ -56,7 +56,6 @@ class OnlineVotingSystem {
                 String name = sc.nextLine();
                 voting.addNewCandidate(name);
                 voting.voteForCandidate(name);
-
             }
         };
 

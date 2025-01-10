@@ -14,6 +14,7 @@ public class Validation {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of emails: ");
         int number = sc.nextInt();
+
         System.out.println("Enter the list of emails: ");
 
         for (int i = 0; i <= number; i++) {
@@ -26,7 +27,7 @@ public class Validation {
     }
 
     public void validEmailChecker() {
-        Pattern pattern = Pattern.compile("^[a-zA-Z0-9][a-zA-Z0-9._-]*@[a-zA-Z0-9.-]+\\.(com|org|net)$");
+        Pattern pattern = Pattern.compile("^[a-zA-Z0-9][a-zA-Z0-9._-]*@[a-zA-Z0-9]+.(com|org|net)$");
         Matcher matcher = null;
         for (String email : list) {
             matcher = pattern.matcher(email);

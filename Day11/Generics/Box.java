@@ -35,8 +35,8 @@ public class Box<T> {
         this.obj = obj;
     }
 
-    public boolean isTypeOf(Class<? extends T> type) {
-        return type.isInstance(obj);
+    public boolean isTypeOf() {
+        return obj instanceof T;
     }
 
     public void printItem() {
@@ -48,17 +48,17 @@ public class Box<T> {
         box1.setObj(7);
         System.out.println("Stored item: " + box1.getObj());
         box1.printItem();
-        System.out.println(box1.isTypeOf(Integer.class));
+        System.out.println(box1.isTypeOf());
 
         box1.setObj("Vignesh");
         System.out.println("Stored item: " + box1.getObj());
         box1.printItem();
-        System.out.println(box1.isTypeOf(String.class));
+        System.out.println(box1.isTypeOf());
 
         box1.setObj(77.8686);
         System.out.println("Stored item: " + box1.getObj());
         box1.printItem();
-        System.out.println(box1.isTypeOf(Double.class));
+        System.out.println(box1.isTypeOf());
 
         Data data = new Data();
         data.setValue(27);
@@ -67,7 +67,7 @@ public class Box<T> {
         box1.setObj(data);
         System.out.println("Stored item: " + box1.getObj());
         box1.printItem();
-        System.out.println(box1.isTypeOf(Data.class));
+        System.out.println(box1.isTypeOf());
 
     }
 
