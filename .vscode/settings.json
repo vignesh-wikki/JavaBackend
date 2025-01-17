@@ -1,0 +1,4 @@
+{
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.testMethod": "Day13.Test.StringReverseTest"
+}

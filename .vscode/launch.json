@@ -1,0 +1,694 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Java",
+            "port": 5005,
+            "sourceRoots": []
+        },
+        {
+            "type": "java",
+            "name": "StringReverseTest",
+            "request": "launch",
+            "mainClass": "StringReverseTest",
+            "projectName": "JavaBackend"
+        },
+        {
+            "type": "java",
+            "name": "Arithmetic",
+            "request": "launch",
+            "mainClass": "Day1.Arithmethic.Arithmetic",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Bitwise",
+            "request": "launch",
+            "mainClass": "Day1.Bitwise.Bitwise",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "Day1.HelloWorld.HelloWorld",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Logical",
+            "request": "launch",
+            "mainClass": "Day1.Logical.Logical",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Primitive",
+            "request": "launch",
+            "mainClass": "Day1.Primitive.Primitive",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "PrimitiveConversion",
+            "request": "launch",
+            "mainClass": "Day1.Primitive.PrimitiveConversion",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Ternary",
+            "request": "launch",
+            "mainClass": "Day1.Ternary.Ternary",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ManageTask",
+            "request": "launch",
+            "mainClass": "Day10.LinkedList.ManageTask",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "StudentManagementSystem",
+            "request": "launch",
+            "mainClass": "Day10.MapExample.StudentManagementSystem",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "CustomerSupportSystem",
+            "request": "launch",
+            "mainClass": "Day10.QueueExample.CustomerSupportSystem",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "StoreCollection",
+            "request": "launch",
+            "mainClass": "Day10.SetExample.StoreCollection",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "UndoFunctionality",
+            "request": "launch",
+            "mainClass": "Day10.StackExample.UndoFunctionality",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "OnlineVotingSystem",
+            "request": "launch",
+            "mainClass": "Day11.Concurrentmap.OnlineVotingSystem",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Box",
+            "request": "launch",
+            "mainClass": "Day11.Generics.Box",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Validation",
+            "request": "launch",
+            "mainClass": "Day11.RegexExample.Validation",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ExtrenalizationEx",
+            "request": "launch",
+            "mainClass": "Day12.ExternalSerialization.ExtrenalizationEx",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "FileIOExample",
+            "request": "launch",
+            "mainClass": "Day12.JavaIO.FileIOExample",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Buffers",
+            "request": "launch",
+            "mainClass": "Day12.JavaNio.Buffers",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "SerialAndDeserialion",
+            "request": "launch",
+            "mainClass": "Day12.SerializationAndDeserialization.SerialAndDeserialion",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Students",
+            "request": "launch",
+            "mainClass": "Day12.Sql.Students",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "BankingSystem",
+            "request": "launch",
+            "mainClass": "Day2.Challenges.BankingSystem.BankingSystem",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "LibrarySystem",
+            "request": "launch",
+            "mainClass": "Day2.Challenges.LibrarySystem.LibrarySystem",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Account",
+            "request": "launch",
+            "mainClass": "Day2.Constructors.ConstructorOverloading.Account",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Book",
+            "request": "launch",
+            "mainClass": "Day2.Constructors.DefaultConstructor.Book",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Day2.Constructors.ParameterizedConstructors.Student",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "Day2.OopsBasics.ClassAndObjects.Car",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "BankAccount",
+            "request": "launch",
+            "mainClass": "Day2.OopsBasics.Encapsulation.BankAccount",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Animal",
+            "request": "launch",
+            "mainClass": "Day2.OopsBasics.Inheritance.Animal",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Day2.OopsBasics.Polymorphism.Calculator",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticAndLogical",
+            "request": "launch",
+            "mainClass": "Day2.Operators.ArithmeticOperator.ArithmeticAndLogical",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "BinaryRepresentation",
+            "request": "launch",
+            "mainClass": "Day2.Operators.BitwiseOperator.BinaryRepresentation",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Swap",
+            "request": "launch",
+            "mainClass": "Day2.Operators.BitwiseOperator.Swap",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "LogicalOperator",
+            "request": "launch",
+            "mainClass": "Day2.Operators.LogicalOperator.LogicalOperator",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Ternary(1)",
+            "request": "launch",
+            "mainClass": "Day2.Operators.TernaryOperator.Ternary",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Calculator(1)",
+            "request": "launch",
+            "mainClass": "Day2.ProgramControl.DecisionMaking.Calculator",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "LeapYear",
+            "request": "launch",
+            "mainClass": "Day2.ProgramControl.DecisionMaking.LeapYear",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "UsingContinue",
+            "request": "launch",
+            "mainClass": "Day2.ProgramControl.JumpStatements.UsingContinue",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "usingExit",
+            "request": "launch",
+            "mainClass": "Day2.ProgramControl.JumpStatements.usingExit",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Pyramid",
+            "request": "launch",
+            "mainClass": "Day2.ProgramControl.Loops.Pyramid",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNumber",
+            "request": "launch",
+            "mainClass": "Day2.ProgramControl.Loops.ReverseNumber",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Day2.ThisAndOverloading.Employee",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloading",
+            "request": "launch",
+            "mainClass": "Day2.ThisAndOverloading.MethodOverloading",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Shape",
+            "request": "launch",
+            "mainClass": "Day3.AbstractClasses.AbstractClass.Shape",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Appliance",
+            "request": "launch",
+            "mainClass": "Day3.AbstractClasses.PartialImplementation.Appliance",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "Day3.Arrays.MultiDimensionalArray.Matrix",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "TranseposeMatrix",
+            "request": "launch",
+            "mainClass": "Day3.Arrays.MultiDimensionalArray.TranseposeMatrix",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "FindLargeAndSmallNumber",
+            "request": "launch",
+            "mainClass": "Day3.Arrays.SingleDimensionalArray.FindLargeAndSmallNumber",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "SumOfEelements",
+            "request": "launch",
+            "mainClass": "Day3.Arrays.SingleDimensionalArray.SumOfEelements",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Person",
+            "request": "launch",
+            "mainClass": "Day3.Inheritance.BasicInheritance.Person",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Vehicle",
+            "request": "launch",
+            "mainClass": "Day3.Inheritance.BasicInheritance.Vehicle",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Animal(1)",
+            "request": "launch",
+            "mainClass": "Day3.Inheritance.HierarchicalInheritance.Animal",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Shape(1)",
+            "request": "launch",
+            "mainClass": "Day3.Inheritance.MultiLevelInheritance.Shape",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day3.Interface.BasicInterfaceImplementation.Main",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceInheritence",
+            "request": "launch",
+            "mainClass": "Day3.Interface.InterfaceInheritance.InterfaceInheritence",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Day3.Interface.InterfacewithFields.Main",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "MultipleInterfaceMethods",
+            "request": "launch",
+            "mainClass": "Day3.Interface.MultipleInterfaces.MultipleInterfaceMethods",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Calculator(2)",
+            "request": "launch",
+            "mainClass": "Day3.Polymorphism.CompileTimePolymorphism.Calculator",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Employee(1)",
+            "request": "launch",
+            "mainClass": "Day3.Polymorphism.RunTimePolymorphism.Employee",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Counter",
+            "request": "launch",
+            "mainClass": "Day3.StaticVariablesAndMethods.Counter",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Utility",
+            "request": "launch",
+            "mainClass": "Day3.StaticVariablesAndMethods.Utility",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Main1",
+            "request": "launch",
+            "mainClass": "Day5.AdditionalQuickChallenge.Utilities.Main1",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "AutoBoxing",
+            "request": "launch",
+            "mainClass": "Day5.AutoboxingAndVarargs.Autoboxing.AutoBoxing",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "VarargsEx",
+            "request": "launch",
+            "mainClass": "Day5.AutoboxingAndVarargs.Varargs.VarargsEx",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "WeekDays",
+            "request": "launch",
+            "mainClass": "Day5.Enum.BasicEnumUsage.WeekDays",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "EnumMethods",
+            "request": "launch",
+            "mainClass": "Day5.Enum.EnumWithMethods.EnumMethods",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "Day5.Generics.GenericsClass.Pair",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Methods",
+            "request": "launch",
+            "mainClass": "Day5.Generics.GenericsMethod.Methods",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Person(1)",
+            "request": "launch",
+            "mainClass": "Day5.JavaAccessModifiers.AccessModifier.Person",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "TestAccess",
+            "request": "launch",
+            "mainClass": "Day5.JavaAccessModifiers.AnotherPackage.TestAccess",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Day5.JavaImportsAndPackages.Main",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "MathClass",
+            "request": "launch",
+            "mainClass": "Day5.JavaImportsAndPackages.StaticImports.MathClass",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionEx",
+            "request": "launch",
+            "mainClass": "Day6.ExceptionalHandling.ExceptionEx",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "LangClassEx",
+            "request": "launch",
+            "mainClass": "Day6.JavaLangClasses.LangClasses.LangClassEx",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "StringEx",
+            "request": "launch",
+            "mainClass": "Day6.JavaLangClasses.Strings.StringEx",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "MyExceptionExanmple",
+            "request": "launch",
+            "mainClass": "Day7.ExceptionExample.MyExceptionExanmple",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Chips",
+            "request": "launch",
+            "mainClass": "Day7.ExtraProblems.ArrayProblem.Chips",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Trip",
+            "request": "launch",
+            "mainClass": "Day7.ExtraProblems.ArrayProblem.Trip",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Twosum",
+            "request": "launch",
+            "mainClass": "Day7.ExtraProblems.ArrayProblem.Twosum",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Day7.ExtraProblems.HackerRankProblem.Solution",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Solution1",
+            "request": "launch",
+            "mainClass": "Day7.ExtraProblems.HackerRankProblem.Solution1",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Day7.ExtraProblems.StringPattern.Palindrome",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "SubStringPattern",
+            "request": "launch",
+            "mainClass": "Day7.ExtraProblems.StringPattern.SubStringPattern",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "SubstringWordPattern",
+            "request": "launch",
+            "mainClass": "Day7.ExtraProblems.StringPattern.SubstringWordPattern",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "SharedPrinter",
+            "request": "launch",
+            "mainClass": "Day7.ObjectAndMethodLocking.SharedPrinter",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ReflectionExample",
+            "request": "launch",
+            "mainClass": "Day7.ReflectionPrograms.ReflectionExample",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ThreadExample",
+            "request": "launch",
+            "mainClass": "Day7.ThreadExamples.ThreadExample",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ContinuousSubarray",
+            "request": "launch",
+            "mainClass": "Day8.ArraysProblems.ContinuousSubarray",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "DistinctElement",
+            "request": "launch",
+            "mainClass": "Day8.ArraysProblems.DistinctElement",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElement",
+            "request": "launch",
+            "mainClass": "Day8.ArraysProblems.NextGreaterElement",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "Day8.ArraysProblems.RotateArray",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "Day8.ArraysProblems.TwoSum",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListEx",
+            "request": "launch",
+            "mainClass": "Day9.ArrayLists.ArrayListEx",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ShoppingSystem",
+            "request": "launch",
+            "mainClass": "Day9.ArrayLists.ManageShoppingList.ShoppingSystem",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "MaxElement",
+            "request": "launch",
+            "mainClass": "Day9.ArrayLists.MaxElement",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "ContactDirectorySystem",
+            "request": "launch",
+            "mainClass": "Day9.HashTable.ContactDirectoryManagementSystem.ContactDirectorySystem",
+            "projectName": "JavaBackend_a1823d7e"
+        },
+        {
+            "type": "java",
+            "name": "StudentGradeSystem",
+            "request": "launch",
+            "mainClass": "Day9.Vector.StudentGradesManagementSystem.StudentGradeSystem",
+            "projectName": "JavaBackend_a1823d7e"
+        }
+    ]
+}
