@@ -11,7 +11,7 @@ public class FactorialCalculator {
         int factorial = 1;
         for (int i = 2; i <= number; i++) {
             factorial *= i;
-            if (factorial >= 2147483647)
+            if (factorial >= Integer.MAX_VALUE)
                 throw new IllegalArgumentException("input not valid integer");
         }
         return factorial;

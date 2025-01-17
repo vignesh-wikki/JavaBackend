@@ -34,7 +34,7 @@ public class FactorialCalculatorTest {
 
     @Test
     public void testBigintergerFactorialCalculator() {
-        BigInteger result = calculator.calculateFactorial(214748364787);
+        BigInteger result = calculator.calculateFactorial(2147483647);
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             check.calculateFactorial(result);
         });
