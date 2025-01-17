@@ -22,7 +22,6 @@ public class PrimeNumberChecherTest {
         assertFalse(check.primeNumberCheck(4));
     }
 
-
     @Test
     public void testinvalidPrimeNumbercheck() {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {

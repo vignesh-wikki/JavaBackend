@@ -11,9 +11,10 @@ public class FactorialCalculator {
         int factorial = 1;
         for (int i = 2; i <= number; i++) {
             factorial *= i;
-            if (factorial >= Integer.MAX_VALUE)
+            if (factorial < 0)
                 throw new IllegalArgumentException("input not valid integer");
         }
         return factorial;
     }
+
 }

@@ -2,7 +2,7 @@ package Day13.JunitPrograms;
 
 public class PrimeNumberChecker {
     public boolean primeNumberCheck(int number) {
-        if(number == 0){
+        if (number <= 0) {
             throw new IllegalArgumentException("invalid number give a number greater than 1");
         }
 

@@ -3,8 +3,6 @@ package Day13.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
-import java.math.BigInteger;
-
 import org.junit.Test;
 
 import Day13.JunitPrograms.FactorialCalculator;
@@ -15,11 +13,6 @@ public class FactorialCalculatorTest {
     @Test
     public void testFactorialCalculator() {
         assertEquals(6, check.factorialCheck(3));
-    }
-
-    @Test
-    public void testBigintegerFactorialCalculator() {
-        assertEquals(0, check.factorialCheck(150));
     }
 
     @Test
@@ -34,10 +27,7 @@ public class FactorialCalculatorTest {
 
     @Test
     public void testBigintergerFactorialCalculator() {
-        BigInteger result = calculator.calculateFactorial(2147483647);
-        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-            check.calculateFactorial(result);
-        });
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> check.factorialCheck(13));
         assertEquals("input not valid integer", exception.getMessage());
     }
 
