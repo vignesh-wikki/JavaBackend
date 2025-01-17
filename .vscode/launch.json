@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DebuggingExercise",
+      "request": "launch",
+      "mainClass": "Day14.Debugging.DebuggingExercise",
+      "projectName": "JavaBackend_a1823d7e"
+    },
+    {
+      "type": "java",
+      "name": "XML_Parsing",
+      "request": "launch",
+      "mainClass": "Day14.XML_Parsing.XML_Parsing",
+      "projectName": "JavaBackend_a1823d7e"
+    },
+    {
+      "type": "java",
       "name": "PrimeNumberChecker",
       "request": "launch",
       "mainClass": "Day13.JunitPrograms.PrimeNumberChecker",
