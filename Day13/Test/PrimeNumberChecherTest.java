@@ -32,7 +32,10 @@ public class PrimeNumberChecherTest {
 
     @Test
     public void testNegativePrimeNumbercheck() {
-        assertFalse(check.primeNumberCheck(-7));
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+            check.primeNumberCheck(-7);
+        });
+        assertEquals("invalid number give a number greater than 1", exception.getMessage());
     }
 
 }

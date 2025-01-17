@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PrimeNumberChecker",
+      "request": "launch",
+      "mainClass": "Day13.JunitPrograms.PrimeNumberChecker",
+      "projectName": "JavaBackend_a1823d7e"
+    },
+    {
+      "type": "java",
       "name": "FactorialCalculator",
       "request": "launch",
       "mainClass": "Day13.JunitPrograms.FactorialCalculator",
