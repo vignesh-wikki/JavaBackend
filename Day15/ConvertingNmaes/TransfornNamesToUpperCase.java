@@ -1,6 +1,7 @@
-import java.util.List;
+package Day15.ConvertingNmaes;
 
 import Day15.SortAList.Student;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class TransfornNamesToUpperCase {

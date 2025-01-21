@@ -1,12 +1,13 @@
 package Day15.SortAList;
 
+import Day15.AverageGPAFinding.FindAverageGPA;
+import Day15.ConvertingNmaes.TransfornNamesToUpperCase;
+import Day15.FindNameByLetter.FindNames;
 import Day15.TopScorer.TopScorers;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import Day15.UppercaseConverting.TransfornNamesToUpperCase;
-import Day15.AverageGPAFinding.FindAverageGPA;
-import Day15.FindNameByLetter.FindNames;
 
 public class Main {
     public static void main(String[] args) {
@@ -117,8 +118,8 @@ public class Main {
         obj.findTopScorer(list);
         System.out.println("----------------------");
 
-        // TransfornNamesToUpperCase obj1 = new TransfornNamesToUpperCase();
-        // obj1.contvertToUpperCase(list);
+         TransfornNamesToUpperCase obj1 = new TransfornNamesToUpperCase();
+         obj1.contvertToUpperCase(list);
         System.out.println("----------------------");
         FindAverageGPA obj2 = new FindAverageGPA();
         obj2.findGPA(list);
