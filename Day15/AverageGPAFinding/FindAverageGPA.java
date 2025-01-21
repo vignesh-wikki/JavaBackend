@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class FindAverageGPA {
     public void findGPA(List<Student> data) {
-        Double list = data.stream().collect(Collectors.averagingDouble((student -> student.getGPA())));
+        Double list = data.stream().collect(Collectors.averagingDouble(Student::getGPA));
 
         System.out.println("The average GPA of all department students is: " + list);
     }
