@@ -4,7 +4,6 @@ import Day15.AverageGPAFinding.FindAverageGPA;
 import Day15.ConvertingNmaes.TransfornNamesToUpperCase;
 import Day15.FindNameByLetter.FindNames;
 import Day15.TopScorer.TopScorers;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -108,22 +107,32 @@ public class Main {
         // });
 
         Collections.sort(list, (list1, list2) -> Double.compare(list1.getGPA(), list2.getGPA()));
+        System.out.println("");
+        System.out.println("Sorted list...");
 
         for (Student student : list) {
             System.out.println(student);
-            System.out.println("----------------------");
+            System.out.println("......................");
         }
 
+
+        System.out.println("");
+        System.out.println("Top scorers...");
         TopScorers obj = new TopScorers();
         obj.findTopScorer(list);
-        System.out.println("----------------------");
+        System.out.println("");
+        System.out.println("Transform Names To UpperCase...");
 
-         TransfornNamesToUpperCase obj1 = new TransfornNamesToUpperCase();
-         obj1.contvertToUpperCase(list);
-        System.out.println("----------------------");
+        TransfornNamesToUpperCase obj1 = new TransfornNamesToUpperCase();
+        obj1.contvertToUpperCase(list);
+        System.out.println("");
+        System.out.println("Find Average...");
+
         FindAverageGPA obj2 = new FindAverageGPA();
         obj2.findGPA(list);
-        System.out.println("----------------------");
+        System.out.println("");
+        System.out.println("Find Names...");
+
         FindNames obj3 = new FindNames();
         obj3.findNamesByLetter(list, 'V');
 
