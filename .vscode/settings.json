@@ -1,4 +1,5 @@
 {
   "java.debug.settings.onBuildFailureProceed": true,
-  "java.testMethod": "Day13.Test.StringReverseTest"
+  "java.testMethod": "Day13.Test.StringReverseTest",
+  "java.format.settings.url": ".vscode/java-formatter.xml"
 }

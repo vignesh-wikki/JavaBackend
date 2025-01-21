@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Day15.SortAList.Main",
+      "projectName": "JavaBackend_a1823d7e"
+    },
+    {
+      "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "Day15.SortAList.Student",
+      "projectName": "JavaBackend_a1823d7e"
+    },
+    {
+      "type": "java",
       "name": "DebuggingExercise",
       "request": "launch",
       "mainClass": "Day14.Debugging.DebuggingExercise",
