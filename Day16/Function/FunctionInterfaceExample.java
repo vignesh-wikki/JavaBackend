@@ -17,14 +17,14 @@ class FunctionInterfaceExample {
             list.add(fun.apply(str));
         });
 
-        list.forEach((str) -> System.out.print(str+" "));
+        list.forEach((str) -> System.out.print(str + " "));
     }
 
     public static void main(String[] args) {
 
         List<String> strings = Arrays.asList("Hello", "World", "Java");
 
-        Function<String, Integer> function = (str) -> str.length();
+        Function<String, Integer> function = String::length;
 
         FunctionInterfaceExample obj = new FunctionInterfaceExample();
 
