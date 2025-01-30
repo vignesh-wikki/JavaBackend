@@ -60,15 +60,13 @@ MiniProject/
 ### **🔹 Prerequisites**
 
 - **Java 8 or later**
-- **Maven/Gradle (if applicable)**
 - **IDE (IntelliJ IDEA, Eclipse, VS Code, etc.)**
 
 ### **🔹 How to Run**
 
 1. Clone or download the project.
 2. Open it in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
-3. Build the project (if using Maven or Gradle, run `mvn clean install` or `gradle build`).
-4. Run the `Controller` class to start the Student Management System.
+3. Run the `Main` class to start the Student Management System.
 
 ---
 
@@ -187,5 +185,5 @@ MiniProject/
 ## 📩 **Contact**
 
 For any issues, reach out to:  
-📧 Email: [vignesh@email.com](mailto:vignesh@email.com)  
+📧 Email: [vignesh@email.com](mailto:vignesha445@email.com)  
 🔗 LinkedIn: [linkedin.com/in/vignesh](https://www.linkedin.com/in/vignesh-a-772810224/)
