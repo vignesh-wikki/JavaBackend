@@ -1,4 +1,4 @@
-package MiniProject.com.sms.model;
+package Day21.MiniProject.com.sms.model;
 
 public class Student {
     private int id;

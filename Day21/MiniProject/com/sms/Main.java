@@ -1,7 +1,4 @@
-package MiniProject.com.sms;
-
-import MiniProject.com.sms.controller.Controller;
-import MiniProject.com.sms.model.Student;
+package Day21.MiniProject.com.sms;
 
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
@@ -9,6 +6,9 @@ import java.util.concurrent.Executors;
 import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
+
+import Day21.MiniProject.com.sms.controller.Controller;
+import Day21.MiniProject.com.sms.model.Student;
 
 public class Main {
     Scanner getInput = new Scanner(System.in);

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "101",
+    "name": "Shivan",
+    "grade": "B",
+    "age": 22,
+    "email": "shivan@gmail.com"
+  },
+  {
+    "id": "106",
+    "name": "Suganya",
+    "grade": "A",
+    "age": 22,
+    "email": "suganya@gmail.com"
+  },
+  {
+    "id": "107",
+    "name": "Rani",
+    "grade": "B",
+    "age": 22,
+    "email": "rani@gmail.com"
+  },
+  {
+    "id": "108",
+    "name": "Karthi",
+    "grade": "A",
+    "age": 22,
+    "email": "karthi@gmail.com"
+  },
+  {
+    "id": "109",
+    "name": "selvam",
+    "grade": "A",
+    "age": 21,
+    "email": "selvam@gmail.com"
+  },
+  {
+    "id": "110",
+    "name": "john A",
+    "grade": "C",
+    "age": 21,
+    "email": "john@gmail.com"
+  },
+  {
+    "id": "102",
+    "name": "Kavin kumar",
+    "grade": "A",
+    "age": 22,
+    "email": "kavin@gmail.com"
+  },
+  {
+    "id": "103",
+    "name": "Vignesh_Shivan",
+    "grade": "A",
+    "age": 21,
+    "email": "vignesh@gmail.com"
+  },
+  {
+    "id": "104",
+    "name": "Vignesh_A",
+    "grade": "A",
+    "age": 22,
+    "email": "vignesha445@gmail.com"
+  },
+  {
+    "id": "105",
+    "name": "Priya",
+    "grade": "C",
+    "age": 21,
+    "email": "priya@gmail.com"
+  }
+]

@@ -1,6 +1,6 @@
-package MiniProject.com.sms.controller;
+package Day21.MiniProject.com.sms.controller;
 
-import MiniProject.com.sms.model.Student;
+import Day21.MiniProject.com.sms.model.Student;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -14,7 +14,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Controller {
-    static String PATH = "/home/vignesh/Downloads/JavaBackend/MiniProject/com/sms/DAO/StudentData.json";
+    static String PATH = "/home/vignesh/Downloads/JavaBackend/Day21/MiniProject/com/sms/DAO/StudentData.json";
     Student newStudent;
     List<Student> students;
     ExecutorService service;
